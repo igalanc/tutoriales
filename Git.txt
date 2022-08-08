@@ -1,0 +1,54 @@
+Git Bash
+
+pwd --> Muestra el directorio donde estamos ubicados
+
+ls --> Muestra los archivos que hay
+
+
+
+git init --> Inicializamos un proyecto
+
+git status --> Ver los archivos que estan trabajando
+
+git add xxxx.xxx --> Añadimos archivo al staging area
+git add . --> Añadimos todos los archivos al entorno de trabajo
+
+git config --global user.email "xxx@example.com" --> Configurar el mail del usuario
+
+git config --global user.name "xxxx" --> Configurar el nombre del usuario
+
+git commit --> Añadir primer snapshot
+	Entramos en el editor bing
+	Primero pulsamos la letra "i" para poder escribir
+	Ponemos el nombre de los cambios
+	Pulsamos "Esc"
+	Introducimos ":wq"
+	Pulsamos "Enter"
+
+git log --> Para ver los commits que hemos creado
+
+git checkout -- xxxx.xxx --> Deshacer los cambios
+git restore xxxx.xxx --> Deshacer los cambios
+
+git diff xxxx.xxx --> Muestra los cambios realizados
+
+git commit -m "mensaje" --> Añadir un nuevo cambio
+
+git branch --> Ver los diferentes proyectos
+
+git branch xxxx --> Crear una versión alternativa
+
+git checkout login --> Cambiar al proyecto login
+
+Una vez creamos un repositorio en GitHub entramos de nuevo en la consola y tecleamos:
+
+	git remote add origin https://github.com/igalanc/git-curso.git
+
+	git push -u origin master
+Con esto agremamos la dirección del repositorio (nos pide autorización para dar acceso) y se adjuntan los archivos y carpetas
+
+Podemos insertar un archivo README donde describiremos el proyecto que estamos creando
+
+El tipo de archivo que utilizamos en GITHUB es MarkDown
+
+git clone https://xxxxxxxxxx --> Con esto clonamos el repositorio de GitHub
